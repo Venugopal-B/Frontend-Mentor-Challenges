@@ -1,0 +1,92 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    width: 300px;
+    margin-left: 39%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.div {
+    width: 300px;
+
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 1rem;
+    box-shadow: 0 6px 10px 0 hsl(212, 45%, 89%), 0 10px 30px 0 hsl(212, 45%, 89%);
+
+}
+.position{
+    margin-top: 16%;
+    margin-left: 39%;
+
+}
+
+
+
+
+@media(max-width:1057px) {
+    .position{
+        margin-top: 18%;
+        margin-left: 35%;
+    
+    }
+    .attribution{
+        margin-left: 35%; 
+    }
+}
+@media(max-width:687px) {
+    .position{
+        margin-top: 22%;
+        margin-left: 27%;
+    
+    }
+    .attribution{
+        margin-left: 27%;
+    }
+}
+@media(max-width: 375px) {
+    .position{
+        margin-top:50%;
+        margin-left: 6%;
+        
+    }
+    .attribution{
+        margin-left: 6%;
+    }
+}
+
+  
+.image {
+    width: 270px;
+    margin: 15px 12px;
+    border-radius: 15px;
+}
+
+.heading {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.5rem;
+}
+
+.paragraph {
+    margin-top: 3%;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-bottom: 10%;
+    color: hsl(220, 15%, 55%);
+}
+
+
+
